@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Cookies | Keranjang</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header--menu">
+            <div class="burger--icon">
+                <a href="main.html"><i class="fa-solid fa-bars"></i></a>
+            </div>
+            <div class="search--box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="menu--icons">
+                <a href="login.html"><i class='bx bx-user'></i></a>
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>0</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="cover">
+        <div class="cover-overlay">
+            <h1>El-Cookies</h1>
+            <span class="slogan">
+                Di mana semua yang berasa akan pecah di mulut
+            </span>
+        </div>
+    </section>
+    <main>
+        <h2 class="section-heading"> Our Menu</h2>
+        <div class="menu-list">
+            <div class="menu-item">
+                <img src="img/Brownies.png" alt="">
+                <h5>Brownies</h5>
+            </div>
+            <div class="menu-item">
+                <img src="img/Onde.png" alt="">
+                <h5>Onde Onde</h5>
+            </div>
+            <div class="menu-item">
+                <img src="img/Kue Lumpur.png" alt="">
+                <h5>Kue Lumpur</h5>
+            </div>
+            <div class="menu-item">
+                <img src="img/Pastel.png" alt="">
+                <h5>Pastel</h5>
+            </div>
+            <div class="menu-item">
+                <img src="img/Kue Cucur.png" alt="">
+                <h5>Kue Cucur</h5>
+            </div>
+            <div class="menu-item">
+                <img src="img/apeVector.png" alt="">
+                <h5>Kue Ape</h5>
+            </div>
+            <!-- <div class="menu-item">
+                <img src="img/kueKuvector.png" alt="">
+                <h5>Kue Ku</h5>
+            </div> -->
+        </div>
+
+        <!-- card item  -->
+        <h2 class="section-heading">Menu Items</h2>
+        <div class="card-list">
+            <div class="card">
+                <img src="img/A10.jpg" alt="">
+                <h4 class="card-title">Brownies A</h4>
+
+                <div class="card-price">
+                    <div class="price">Rp50.000</div>
+                    <i class="fa-solid fa-plus add-to-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/B12.jpg" alt="">
+                <h4 class="card-title">Brownies B</h4>
+
+                <div class="card-price">
+                    <div class="price">Rp70.000</div>
+                    <i class="fa-solid fa-plus add-to-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/C14.jpg" alt="">
+                <h4 class="card-title">Brownies C</h4>
+
+                <div class="card-price">
+                    <div class="price">Rp90.000</div>
+                    <i class="fa-solid fa-plus add-to-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/menuOnde.jpg" alt="">
+                <h4 class="card-title">Onde Onde</h4>
+
+                <div class="card-price">
+                    <div class="price">Rp20.000</div>
+                    <i class="fa-solid fa-plus add-to-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/menuLumpur.jpg" alt="">
+                <h4 class="card-title">Kue Lumpur</h4>
+
+                <div class="card-price">
+                    <div class="price">Rp15.000</div>
+                    <i class="fa-solid fa-plus add-to-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/menuPastel.jpg" alt="">
+                <h4 class="card-title">Pastel</h4>
+
+                <div class="card-price">
+                    <div class="price">Rp20.000</div>
+                    <i class="fa-solid fa-plus add-to-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/cucur2.png" alt="">
+                <h4 class="card-title">Kue Cucur</h4>
+
+                <div class="card-price">
+                    <div class="price">Rp20.000</div>
+                    <i class="fa-solid fa-plus add-to-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/apeapean.jpeg" alt="">
+                <h4 class="card-title">Kue Ape</h4>
+
+                <div class="card-price">
+                    <div class="price">Rp15.000</div>
+                    <i class="fa-solid fa-plus add-to-cart"></i>
+                </div>
+            </div>
+            <!-- <div class="card">
+                <img src="img/kueku3.jpg" alt="">
+                <h4 class="card-title">Kue Ku</h4>
+
+                <div class="card-price">
+                    <div class="price">Rp30.000</div>
+                    <i class="fa-solid fa-plus add-to-cart"></i>
+                </div>
+            </div> -->
+        </div>
+
+        <!-- cart sidebar -->
+        <!-- Example HTML structure for cart items -->
+        <div class="sidebar hidden" id="sidebar">
+            <div class="open">
+                <div class="sidebar-close">
+                    <i class="fa-solid fa-close"></i>
+                </div>
+                <div class="cart-menu">
+                    <h3>My Cart</h3>
+                    <div class="cart-items"></div>
+                </div>
+                <div class="sidebar-footer">
+                    <div class="total-amount">
+                        <h5>Total</h5>
+                        <div class="cart-total"> Rp0.0</div>
+                    </div>
+                    <button class="checkout-btn">CheckOut</button>
+                </div>
+            </div>
+        </div>
+        <!-- Receipt modal -->
+        <div id="receipt-modal" class="receipt-modal hidden">
+            <div class="receipt-content">
+                <span class="close-receipt">&times;</span>
+                <h2>Receipt</h2>
+                <div id="receipt-items"></div>
+                <div class="receipt-total">
+                    <h3>Total: <span id="receipt-total"></span></h3>
+                </div>
+                <button class="close-receipt-btn">Confirm Checkout</button>
+            </div>
+        </div>
+
+
+
+    </main>
+    <script src="cart.js"></script>
+</body>
+
+</html>
